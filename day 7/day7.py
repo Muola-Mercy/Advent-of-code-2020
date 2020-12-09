@@ -6,11 +6,9 @@ Created on Mon Dec  7 11:51:04 2020
 """
 
 lines = open('input.txt').read().split('\n')
-test = open('test.txt').read().split('\n')
-
 total = 0
 bags = {}
-rg = {}
+
 #prt 1
 def fb(xg,x):
     colours = []
